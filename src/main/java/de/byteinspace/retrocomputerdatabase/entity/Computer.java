@@ -28,7 +28,7 @@ public class Computer {
 	
 	protected Computer() { }
 	
-	protected Computer(Company company, String name)
+	public Computer(Company company, String name)
 	{
 		this.company = company;
 		this.name = name;

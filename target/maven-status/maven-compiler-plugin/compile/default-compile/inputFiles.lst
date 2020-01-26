@@ -1,4 +1,3 @@
-/home/daniel/development/RetroComputerDatabase/src/main/java/de/byteinspace/retrocomputerdatabase/HelloWorld.java
 /home/daniel/development/RetroComputerDatabase/src/main/java/de/byteinspace/retrocomputerdatabase/entity/Computer.java
 /home/daniel/development/RetroComputerDatabase/src/main/java/de/byteinspace/retrocomputerdatabase/repository/ComputerRepository.java
 /home/daniel/development/RetroComputerDatabase/src/main/java/de/byteinspace/retrocomputerdatabase/repository/CPURepository.java
@@ -8,3 +7,4 @@
 /home/daniel/development/RetroComputerDatabase/src/main/java/de/byteinspace/retrocomputerdatabase/RetrocomputerdatabaseApplication.java
 /home/daniel/development/RetroComputerDatabase/src/main/java/de/byteinspace/retrocomputerdatabase/controller/HomeController.java
 /home/daniel/development/RetroComputerDatabase/src/main/java/de/byteinspace/retrocomputerdatabase/controller/ComputerController.java
+/home/daniel/development/RetroComputerDatabase/src/main/java/de/byteinspace/retrocomputerdatabase/StartupRunner.java

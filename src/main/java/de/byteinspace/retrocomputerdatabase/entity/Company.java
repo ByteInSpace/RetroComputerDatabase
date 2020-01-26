@@ -19,7 +19,7 @@ public class Company {
 	
 	protected Company() { }
 	
-	protected Company(String name) {
+	public Company(String name) {
 		this.name = name;
 	}
 	
@@ -36,12 +36,7 @@ public class Company {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public List<Computer> getComputers() {
-		return computers;
-	}
-	public void setComputers(List<Computer> computers) {
-		this.computers = computers;
-	}
+	
 	
 	
 	

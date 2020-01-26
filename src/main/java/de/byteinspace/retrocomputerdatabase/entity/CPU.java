@@ -20,7 +20,7 @@ public class CPU {
 	
 	protected CPU() { }
 	
-	protected CPU(String name) {
+	public CPU(String name) {
 		this.name = name;
 	}
 	
