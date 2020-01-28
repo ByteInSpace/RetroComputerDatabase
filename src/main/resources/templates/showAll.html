@@ -18,16 +18,29 @@
     </div>
     <div id="site_content">
       <div class="sidebar">
-        <div th:replace="sidebar :: sidebar">  
-        </div>
+        <div th:replace="sidebar :: sidebar"> </div> 
       </div>
       <div id="content">
-    <p>Page content goes here</p>
+        
+   <h1>Show all computers</h1>
+<table>
+	<thead>
+		<tr>
+			<th>Company</th>
+			<th>Computer</th>
+		</tr>
+		<tbody>
+			<tr th:each=" computer : ${computers}">
+				<td><span th:text="${computer.company.name}">Company</span></td>
+				<td><span th:text="${computer.name}">Name</span></td>
+		</tbody>
+</table>
       </div>
     </div>
-    <div id="footer"><
+    <div id="footer">
     <div th:replace="footer :: footer">  
   	</div>
   </div>
 </body>
 </html>
+
