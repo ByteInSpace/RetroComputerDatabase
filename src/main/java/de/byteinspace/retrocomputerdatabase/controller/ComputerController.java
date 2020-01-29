@@ -23,9 +23,10 @@ public class ComputerController {
 		return computerRepository.findAll();
 	}
 	
-	@RequestMapping(value = "/{name}", method=RequestMethod.GET)
-	public Computer getComputer(@PathVariable String name) {
-		return computerRepository.findComputerByName(name);
+	@RequestMapping(value = "/{id}", method=RequestMethod.GET)
+	public String getComputer(@PathVariable Long id, Model model) {
+		model.addAttribute("computer", computerRepository.findComputerById(id));
+		return "showDetailComputer";
 	}
 	
 	@GetMapping("/showall")

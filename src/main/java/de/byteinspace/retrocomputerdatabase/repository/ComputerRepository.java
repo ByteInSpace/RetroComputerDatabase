@@ -10,6 +10,6 @@ public interface ComputerRepository extends PagingAndSortingRepository<Computer,
 	
 	public Computer findComputerByName(String name);
 	
-	
+	public Computer findComputerById(Long id);
 
 }

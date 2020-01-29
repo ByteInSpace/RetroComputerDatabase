@@ -34,7 +34,7 @@
 			<tr th:each=" computer : ${computers}">
 				<td><img th:src="@{/images/thumb/{computerthumb}(computerthumb=${computer.thumb})}"></td>
 				<td><span th:text="${computer.company.name}">Company</span></td>
-				<td><span th:text="${computer.name}">Name</span></td>
+				<td><a th:href="@{/computer/{id}(id=${computer.id})}"><span th:text="${computer.name}">Name</span></a></td>
 		</tbody>
 </table>
       </div>
