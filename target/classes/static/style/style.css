@@ -7,7 +7,7 @@ html
 
 body
 { font: normal .80em 'trebuchet ms', arial, sans-serif;
-  background: #F0EFE2 ;
+  background: #ededed ;
   color: #000;}
 
 p
@@ -287,6 +287,6 @@ table tr th, table tr td
   text-align: left;}
   
 table tr td
-{ background: #F0EFE2;
+{ background: #ededed;
   color: #47433F;
   border-top: 1px solid #FFF;}

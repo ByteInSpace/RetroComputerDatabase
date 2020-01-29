@@ -25,9 +25,18 @@ public class Computer {
 	private Integer year;
 	private Integer price;
 	private String ports;
+	private String thumb;
 	
 	protected Computer() { }
 	
+	public String getThumb() {
+		return thumb;
+	}
+
+	public void setThumb(String thumb) {
+		this.thumb = thumb;
+	}
+
 	public Computer(Company company, String name)
 	{
 		this.company = company;
