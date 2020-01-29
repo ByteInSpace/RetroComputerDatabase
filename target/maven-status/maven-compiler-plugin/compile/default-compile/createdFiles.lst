@@ -3,6 +3,7 @@ de/byteinspace/retrocomputerdatabase/repository/CPURepository.class
 de/byteinspace/retrocomputerdatabase/entity/CPU.class
 de/byteinspace/retrocomputerdatabase/entity/Computer.class
 de/byteinspace/retrocomputerdatabase/entity/Company.class
+de/byteinspace/retrocomputerdatabase/controller/CompanyController.class
 de/byteinspace/retrocomputerdatabase/controller/ComputerController.class
 de/byteinspace/retrocomputerdatabase/repository/CompanyRepository.class
 de/byteinspace/retrocomputerdatabase/RetrocomputerdatabaseApplication.class

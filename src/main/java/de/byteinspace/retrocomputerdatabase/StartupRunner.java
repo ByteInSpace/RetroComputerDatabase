@@ -32,9 +32,12 @@ public class StartupRunner implements CommandLineRunner {
 		cpuRepository.save(cpuMos);
 		
 		Company comCommodore = new Company("Commodore");
-		Company comAtari = new Company("Atari");
-		Company comSpectrum = new Company("Sinclair");
+		comCommodore.setThumb("commodore.png");
 		
+		Company comAtari = new Company("Atari");
+		comAtari.setThumb("atari.png");
+		Company comSpectrum = new Company("Sinclair");
+		comSpectrum.setThumb("sinclair.png");
 		companyRepository.save(comCommodore);
 		companyRepository.save(comAtari);
 		companyRepository.save(comSpectrum);

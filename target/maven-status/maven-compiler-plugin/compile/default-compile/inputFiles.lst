@@ -3,6 +3,7 @@
 /home/daniel/development/RetroComputerDatabase/src/main/java/de/byteinspace/retrocomputerdatabase/repository/CPURepository.java
 /home/daniel/development/RetroComputerDatabase/src/main/java/de/byteinspace/retrocomputerdatabase/repository/CompanyRepository.java
 /home/daniel/development/RetroComputerDatabase/src/main/java/de/byteinspace/retrocomputerdatabase/entity/CPU.java
+/home/daniel/development/RetroComputerDatabase/src/main/java/de/byteinspace/retrocomputerdatabase/controller/CompanyController.java
 /home/daniel/development/RetroComputerDatabase/src/main/java/de/byteinspace/retrocomputerdatabase/entity/Company.java
 /home/daniel/development/RetroComputerDatabase/src/main/java/de/byteinspace/retrocomputerdatabase/RetrocomputerdatabaseApplication.java
 /home/daniel/development/RetroComputerDatabase/src/main/java/de/byteinspace/retrocomputerdatabase/controller/HomeController.java

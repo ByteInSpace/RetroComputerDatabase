@@ -17,6 +17,8 @@ public class Company {
 	@OneToMany(mappedBy = "company")
 	private List<Computer> computers;
 	
+	private String thumb;
+	
 	protected Company() { }
 	
 	public Company(String name) {
@@ -35,6 +37,14 @@ public class Company {
 	}
 	public void setName(String name) {
 		this.name = name;
+	}
+
+	public String getThumb() {
+		return thumb;
+	}
+
+	public void setThumb(String thumb) {
+		this.thumb = thumb;
 	}
 	
 	
