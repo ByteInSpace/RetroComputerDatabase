@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class AdminController {
 	
 	@GetMapping("/home")
-	public String showALlForm(Model model) {
+	public String showAllForm(Model model) {
 		
 		return "adminhome";
 	}

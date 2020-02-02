@@ -22,7 +22,24 @@
       </div>
       <div id="content">
         
-   <h1>ADMIN</h1>
+   <table>
+	<thead>
+		<tr>
+			<th></th>
+			<th>Company</th>
+			<th>Computer</th>
+			<th>Edit</th>
+			<th>Delete</th>
+		</tr>
+		<tbody>
+			<tr th:each=" computer : ${computers}">
+				<td><img th:src="@{/images/thumb/{computerthumb}(computerthumb=${computer.thumb})}"></td>
+				<td><span th:text="${computer.company.name}">Company</span></td>
+				<td><a th:href="@{/computer/{id}(id=${computer.id})}"><span th:text="${computer.name}">Name</span></a></td>
+				<td><a th:href="@{/admin/computer/edit/{id}(id=${computer.id})}">Edit</a></td>
+				<td><a th:href="@{/admin/computer/delete/{id}(id=${computer.id})}">Delete</a></td>
+		</tbody>
+</table>
       </div>
     </div>
     <div id="footer">
