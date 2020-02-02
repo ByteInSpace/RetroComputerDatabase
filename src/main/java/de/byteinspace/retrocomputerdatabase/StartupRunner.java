@@ -53,6 +53,7 @@ public class StartupRunner implements CommandLineRunner {
 		computerC64.setRom(32);
 		computerC64.setSoundModes("SID");
 		computerC64.setThumb("c64.png");
+		computerC64.setImage("commodorec64.png");
 		
 		computerRepository.save(computerC64);
 		
@@ -66,6 +67,7 @@ public class StartupRunner implements CommandLineRunner {
 		computerZXSpectrum.setRom(32);
 		computerZXSpectrum.setSoundModes("Beeper");
 		computerZXSpectrum.setThumb("ZXSpectrum48.png");
+		computerZXSpectrum.setImage("zxspectrum48.jpg");
 		
 		computerRepository.save(computerZXSpectrum);
 		
@@ -80,6 +82,7 @@ public class StartupRunner implements CommandLineRunner {
 		computer800XL.setRom(32);
 		computer800XL.setSoundModes("Tone");
 		computer800XL.setThumb("800XL.png");
+		computer800XL.setImage("atari800xl.jpg");
 		
 		computerRepository.save(computer800XL);
 		

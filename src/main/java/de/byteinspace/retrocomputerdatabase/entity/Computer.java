@@ -26,6 +26,8 @@ public class Computer {
 	private Integer price;
 	private String ports;
 	private String thumb;
+	private String image;
+	
 	
 	protected Computer() { }
 	
@@ -129,6 +131,14 @@ public class Computer {
 
 	public void setPorts(String ports) {
 		this.ports = ports;
+	}
+
+	public String getImage() {
+		return image;
+	}
+
+	public void setImage(String image) {
+		this.image = image;
 	}
 	
 	

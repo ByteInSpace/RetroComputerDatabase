@@ -22,7 +22,10 @@
       </div>
       <div id="content">
         
+        
    <h1><span th:text="${computer.company.name}">Company </span> <span th:text="${computer.name}">Computername</span></h1>
+   
+   <img th:src="@{/images/{computerimage}(computerimage=${computer.image})}" width="200" height="200">
 <table>
 	<thead>
 		<tr>
